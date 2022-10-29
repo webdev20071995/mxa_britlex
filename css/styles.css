@@ -1,6 +1,9 @@
 /* CUSTOM-PROPS */
 :root {
-
+  --black: #000000;
+  --light-black: #263238;
+  --gray: #8F95A5;
+  --light-gray: #F5F5F5;
 }
 
 /* FONT-FACE  */
@@ -72,6 +75,54 @@ img {
 .main-content {
   flex-grow: 1;
 }
+
+/* BUTTONS */
+.button {
+  text-decoration: none;
+  color: var(--light-black);
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 400;
+  padding: 17px 50px;
+  text-transform: capitalize;
+  transition: 0.3s ease;
+}
+
+.button--white{
+  border: 2px solid var(--light-black);
+  border-radius: 5px;
+}
+
+.button--white:hover{
+  background-color: var(--light-black);
+  color: #fff;
+}
+
+.button--white:active{
+  background-color: var(--light-black);
+  color: #fff;
+  opacity: 0.8;
+}
+
+.hero__button{
+  margin-top: 60px;
+}
+
+.button--black {
+  color: #fff;
+  background-color: var(--light-black);
+  border-radius: 15px;
+  padding: 30px 100px;
+}
+
+.button--black:hover{
+  opacity: 0.8;
+}
+
+.button--black:active{
+  opacity: 0.6;
+}
+
 
 
 /* SITE-HEADER */
