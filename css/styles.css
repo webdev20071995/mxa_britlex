@@ -208,3 +208,50 @@ img {
 .sitenav__link:active{
   opacity: 0.6;
 }
+
+
+/* HERO */
+.hero{
+
+}
+
+.hero__container{
+  display: flex;
+  align-items: center;
+}
+
+.hero__info{
+
+}
+
+.hero__heading{
+  margin: 0;
+  padding: 0;
+  font-size: 64px;
+  line-height: 80px;
+  font-weight: 600;
+  color: var(--black);
+  text-transform: capitalize;
+}
+
+.hero__text{
+  margin: 0;
+  padding: 0;
+  margin-top: 40px;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 400;
+  color: var(--gray);
+}
+
+.hero__icon{
+  display: block;
+  object-fit: contain;
+  position: absolute;
+  right: 60%;
+  top: 60%;
+}
+
+.hero__img{
+  margin-left: auto;
+}
