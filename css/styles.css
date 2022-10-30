@@ -241,13 +241,27 @@ img {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
 }
+.card__info-speaking{
+  margin-top: 20px;
+}
+.card__info-reading{
+  margin-top: 50px;
+}
 .skills__card {
-  padding: 35px 40px;
+  padding: 35px 34px;
   background-color: var(--light-gray);
   border-radius: 10px;
+  align-items: center;
 }
-.skills__card-listening{
-  
+.skills__card:first-child{
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.skills__card:last-child{
+  flex-direction: row-reverse;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  display: flex;
 }
 .card__title {
   padding: 0;
@@ -268,3 +282,7 @@ img {
 .skills__button{
     margin-top: 35px;
 }
+.skills__button-dropper{
+  margin-top: 50%;
+}
+
