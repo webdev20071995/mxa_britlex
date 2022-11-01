@@ -140,6 +140,18 @@ img {
   opacity: 0.8;
 }
 
+.button--form{
+  background-color: var(--light-black);
+  color: #fff;
+  padding: 25px 80px;
+  border-radius: 10px;
+  margin-left: 12px;
+}
+
+.button--form:hover{
+  opacity: 0.8;
+}
+
 
 /* SITE-HEADER */
 .site-header {
@@ -349,6 +361,101 @@ img {
 .about-us__img {
   margin-left: auto;
 }
+
+/* PRICING */
+.pricing {
+  margin-top: 100px;
+}
+
+.pricing__container {
+  align-items: center;
+}
+
+.pricing__heading {
+  text-align: center;
+  font-size: 48px;
+  line-height: 80px;
+  font-weight: 600;
+  color: var(--black);
+}
+
+.pricing__list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.pricing__item {
+  flex-direction: column;
+  margin: 0;
+  padding: 10px;
+}
+
+.pricing__info{
+  margin-top: 55px;
+}
+
+.pricing__info-3{
+  margin-top: -25px;
+}
+
+.pricing__item:not(:last-child){
+  margin-right: 50px;
+}
+
+.pricing__title {
+  font-size: 30px;
+  line-height: 48px;
+  font-weight: 600;
+  color: var(--light-black);
+  margin: 0;
+  padding: 0;
+}
+
+.pricing__text {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  color: var(--gray);
+  margin: 0;
+  padding: 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.pricing_money {
+  background-color: #eee;
+  border-radius: 5px;
+  align-items: center;
+  display: flex;
+  width: 240px;
+  padding: 10px 20px;
+  margin: 0;
+  margin-top: 30px;
+}
+
+.pricing_money-size{
+  margin-top: 60px;
+}
+
+.pricing__money-number {
+  color:var(--light-black);
+  font-size: 32px;
+  line-height: 45px;
+  font-weight: 400;
+}
+
+.pricing__money-small {
+  font-size: 17px;
+  line-height: 27px;
+  color: #546269;;
+  font-weight: 400;
+  margin-left: auto;
+}
+
+
+
 
 
 /* MEDIA */
