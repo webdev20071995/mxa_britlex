@@ -455,6 +455,47 @@ img {
 }
 
 
+/* CONTACT-US */
+.contact-us {
+  margin-top: 280px;
+}
+
+.contact-us__container {
+  display: flex;
+}
+
+.contact__us-info {
+ margin: 0;
+ margin-left: 30px;
+ padding: 0; 
+}
+
+.contact-us__tile {
+  font-size: 40px;
+  line-height: 80px;
+  font-weight: 600;
+}
+
+.contact-us__text {
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--gray);
+}
+
+.form__inner {
+  margin-top: 50px;
+}
+
+.form__input {
+  width: 100%;
+  max-width: 450px;
+  font-size: 16px;
+  line-height: normal;
+  border-radius: 10px;
+  border: 1px solid var(--gray);
+  padding: 32px;
+}
+
 
 
 
