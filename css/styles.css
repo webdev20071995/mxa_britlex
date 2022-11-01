@@ -497,6 +497,65 @@ img {
 }
 
 
+/* SOTE-FOOTER */
+.site-footer {
+  margin-top: 135px;
+}
+
+.site-footer__line {
+  color: #C4C4C4;
+}
+
+.site-header-img:hover{
+  opacity: 0.6;
+}
+
+.site-footer__container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 55px;
+}
+
+.site-footer__list {
+  list-style: none;
+  margin-left: auto;
+  display: flex;
+}
+
+.site-footer__item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.site-footer__link {
+  text-decoration: none;
+  color: var(--gray);
+  font-size: 24px;
+  line-height: 36px;
+  transition: ease color 0.2s;
+}
+
+.site-footer__link::before{
+  border-radius: 50%;
+  background-color: var(--gray);
+
+}
+
+.site-footer__link::after{
+  border-radius: 50%;
+  background-color: var(--gray);
+   
+}
+
+.site-footer__link:hover{
+  color: #263238;
+}
+
+.site-footer__link:active{
+  opacity: 0.8;
+}
+
 
 
 /* MEDIA */
